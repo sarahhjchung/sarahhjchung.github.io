@@ -1,7 +1,15 @@
-h1 { 
+p.name { 
+  font-size: 50px;
+  font-weight: 900;
   font-family: verdana;
-  font-size: 200%;
-h4 {
-  text-align: right;
+  text-transform: uppercase;
+  margin: 1px; /* to make closer to info*/
+}
+p.info {
+  /* padding: top right bottom left
+     https://www.w3schools.com/Css/css_padding.asp */
+  padding: 1px 1px 5px 1px;
   font-family: verdana;
+  border-bottom: 5px solid black;
+  margin: 1px;
 }
