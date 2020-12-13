@@ -6,9 +6,10 @@
    - yellow #E9FF70
    - blue #70D6FF
 */
-h1 {
+* {
     font-family: 'Roboto';
-    font-size: 64px;
-    text-align: left;
-    padding-left: 20%;
+}
+
+.nav navbar-nav navbar-right {
+    color: #E9FF70;
 }
