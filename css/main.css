@@ -1,0 +1,44 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #E5E5E5;
+    font-family: "Roboto";
+}
+
+/*--- navigation bar ---*/
+
+.navbar {
+    background: #E5E5E5;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 3%;
+}
+
+.nav-link,
+.navbar-brand {
+    color: #FFBE0B;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.nav-link {
+    margin-right: 1em !important;
+}
+
+    .nav-link:hover {
+        color: #FCDF8F;
+    }
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.nav-item {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.instagram img {
+    width: 36px;
+    height: 36px;
+}
