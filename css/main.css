@@ -9,7 +9,7 @@ body {
 
 .navbar {
     background: #E5E5E5;
-    padding-right: 5%;
+    padding-right: 8%;
     padding-left: 5%;
     padding-top: 3%;
 }
@@ -18,7 +18,7 @@ body {
 .navbar-brand {
     color: #FFBE0B;
     cursor: pointer;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .nav-link {
@@ -42,3 +42,23 @@ body {
     width: 36px;
     height: 36px;
 }
+
+/*--- Landing Page ---*/
+
+.description {
+    font-weight: bold;
+    padding-left: 8%;
+    padding-top: 8%;
+    padding-right: 5%;
+}
+
+.description h1 {
+    font-size: 88px;
+    font-weight: bolder;
+}
+
+    .description p {
+        color: #838383;
+        font-size: 28px;
+        font-weight: bolder;
+    }
