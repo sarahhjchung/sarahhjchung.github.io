@@ -43,22 +43,69 @@ body {
     height: 36px;
 }
 
+    .instagram img:hover {
+        opacity: 0.5;
+    }
+
 /*--- Landing Page ---*/
 
 .description {
     font-weight: bold;
     padding-left: 8%;
-    padding-top: 8%;
+    padding-top: 6%;
     padding-right: 5%;
 }
 
-.description h1 {
-    font-size: 88px;
-    font-weight: bolder;
-}
+    .description h1 {
+        font-size: 88px;
+        font-weight: bolder;
+    }
 
     .description p {
         color: #838383;
         font-size: 28px;
         font-weight: bolder;
     }
+
+.buttons {
+    padding-left: 8%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+    .buttons .resume {
+        border-radius: 12px;
+        height: 56px;
+        width: 148px;
+        font-size: 28px;
+        text-align: center;
+        border: none;
+        background-color: #FB5607;
+        color: #E5E5E5;
+        box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        text-decoration: none;
+    }
+
+        .buttons .resume:hover {
+            opacity: 0.7;
+        }
+
+    .buttons .github {
+        border-radius: 12px;
+        height: 56px;
+        width: 148px;
+        font-size: 28px;
+        text-align: center;
+        margin-left: 30px;
+        background-color: #E5E5E5;
+        color: #FB5607;
+        border-color: #FB5607;
+        border-width: 5px;
+        box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        text-decoration: none;
+    }
+
+        .buttons .github:hover {
+            opacity: 0.7;
+        }
+
