@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>chxrrypie</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<!-- CHXRRYPIE Title -->
+<div class="header">
+   <img id="title" src="chxrrypie.png" alt="Title">
+</div>
+
+
+<!-- Top Navigation Bar -->
+<div class="topnav">
+   <a href="index.html">Home</a>
+   <a href="art.html">Art</a>
+   <a class="active" href="shop.html">Shop</a>
+   <a href="about.html">About Me</a>
+</div>
+
+
+<!-- Side Social Media Icon Buttons -->
+<div class="column side">
+<a href="https://www.instagram.com/chxrry.pie/"><img id="ig" src="ig_button.png" alt="IG"></a>
+<a href="https://www.pinterest.ca/chxrrypie0621/boards/"><img id="pinterest" src="pinterest_button.png" alt="Pinterest"></a>
+</div>
+
+
+<!-- SHOP -->
+<div class="column middle">
+<div class="redbubble">
+   <img id="rb" src="redbubble.png" alt="RedBubble"> <p>Shop stickers, pins, notebooks, and mugs on RedBubble! Profits will go towards different charities that is up for change. At the moment, proceeds will be going towards the Yemen crisis.</p>
+   <a href="https://www.redbubble.com/people/chxrrypie/shop"><button type="button" class="redbutton">Go to RedBubble</button></a>
+</div>
+</div>
+
+<div class="column side">
+</div>
+
+</body>
+</html>

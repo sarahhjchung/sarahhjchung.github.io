@@ -1,0 +1,104 @@
+#title {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 280px; 
+   padding-top: 48px;
+   padding-bottom: 48px;
+}
+
+a {
+   text-decoration: none;
+}
+
+.topnav {
+   overflow: auto;
+   margin: auto;
+   width: 70%;
+   padding: 0px;
+}
+
+.topnav a {
+   float: left;
+   text-decoration: none;
+   color: black;
+   padding: 0px;
+   text-align: center;
+   font-size: 17px;
+   width: 25%
+}
+
+.topnav a:hover {
+   color: #efc1bd;
+}
+
+.topnav a.active {
+   color: #efa7a0;
+}
+
+#ig {
+   position: fixed;
+   display: block;
+   float: left;
+   top: 250px;
+   left: 74px;
+}
+
+#pinterest {
+   position: fixed;
+   display: block;
+   float: left;
+   top: 300px;
+   left: 76px;
+}
+
+.column {
+   float: left;
+   padding: 10px;
+}
+
+.column.side { 
+   width: 18%;
+}
+
+.column.middle {
+   width: 64%;
+}
+
+#rb {
+   float: left;
+}
+
+.redbubble {
+   padding-top: 36px;
+   text-align: justify;
+   font-family: sans-serif;
+}
+
+.redbubble p {
+   display: block;
+   padding-top: 40px;
+}
+
+.redbutton {
+   display: block;
+   width: 150px;
+   margin: auto;
+   border: solid;
+   border-radius: 5px;
+   border-color: #f4a790;
+   background-color: white;
+   font-size: 16px;
+   cursor: pointer;
+   text-align: center;
+   text-transform: uppercase;
+   color: #f4a790;
+   padding: 14px;
+   word-spacing: 10px;
+   font-weight: bold;
+}
+
+.redbutton:hover {
+   color: #fcd0c9;
+   border-color: #fcd0c9;
+}

@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\css",
-    "\\images"
+    "\\images",
+    "\\links"
   ],
-  "SelectedNode": "\\images\\ig_logo_hover.png",
+  "SelectedNode": "\\README.md",
   "PreviewInSolutionExplorer": false
 }

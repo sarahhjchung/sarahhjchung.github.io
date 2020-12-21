@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Fugaz One|Darker Grotesque');
+
+body {
+	font-family: 'Fugaz One';
+	background-color: #F8D7D0;
+	margin: 0;
+	min-width: 1200px;
+	width: auto;
+}
+
+/* CHXRRYPIE header on the left corner of page */
+.topnav #header {
+	display: block;
+	position: fixed;
+	float: left;
+	padding-left: 50px;
+	color: #FFFBF4;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* NAVIGATION BAR on the right corner of page */
+.topnav {
+    float: right;
+	position: fixed;
+	overflow: hidden;
+	top: 0;
+    width: 100%;
+    padding-bottom: 25px;
+	background-color: #F8D7D0;
+	z-index: 100;
+}
+
+.topnav a {
+    float: right;
+	text-transform: uppercase;
+    color: #FFFBF4;
+    padding-top: 25px;
+    text-align: center;
+    font-size: 17px;
+    width: 120px;
+	z-index: 100;
+}
+
+.topnav a:hover {
+    color: #FFE8C6;
+}
+
+.topnav a.active {
+    color: #FFE8C6;
+}
+
+/* ABOUT PAGE --------------------------------------------------------------------- */
+#profile {
+	float: left;
+	width: 250px;
+	height: 250px;
+	overflow: hidden;
+	padding: 50px;
+	margin-top: 100px;
+	margin-left: 20%;
+}
+
+.about h3 {
+	overflow: hidden;
+	text-transform: uppercase;
+	color: #FFFBF4;
+	font-size: 24px;
+	padding-top: 200px;
+}
+
+.about p {
+	position: relative;
+	overflow: hidden;
+	text-transform: uppercase;
+	color: #EFA7A0;
+	max-width: 500px;
+}
+
+
+/* FOOTER WITH SOCIAL MEDIA BUTTONS AND MY NAME */
+footer {
+	background-color: #FFFBF4;
+	position: fixed;
+	overflow: hidden;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	padding: 0;
+	color: #EFA7A0;
+}
+
+footer #socials {
+	float: left;
+	padding-left: 30px;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-family: 'Darker Grotesque';
+}
+
+footer #author {
+	float: right;
+	padding-right: 30px;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-family: 'Darker Grotesque';
+}
+
+#ig {
+	margin-left: 7px;
+	margin-top: 15px;
+	width: 30px;
+	height: 30px;
+}
+
+#pinterest {
+	margin-top: 15px;
+	width: 30px;
+	height: 30px;
+}

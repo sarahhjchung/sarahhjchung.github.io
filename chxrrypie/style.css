@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css?family=Fugaz One|Darker Grotesque');
+
+body {
+	font-family: 'Fugaz One';
+	background-color: #F8D7D0;
+	margin: 0;
+	min-width: 1200px;
+	width: auto;
+}
+
+/* CHXRRYPIE header on the left corner of page */
+.topnav #header {
+	display: block;
+	position: fixed;
+	float: left;
+	padding-left: 50px;
+	color: #FFFBF4;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* NAVIGATION BAR on the right corner of page */
+.topnav {
+    float: right;
+	position: fixed;
+	overflow: hidden;
+    /* margin-left: auto; */
+	/* margin-right: auto; */
+    width: 100%;
+    padding-bottom: 25px;
+	background-color: #F8D7D0;
+	z-index: 100;
+}
+
+.topnav a {
+    float: right;
+	text-transform: uppercase;
+    color: #FFFBF4;
+    padding-top: 27px;
+    text-align: center;
+    font-size: 17px;
+    width: 120px;
+	z-index: 100;
+}
+
+.topnav a:hover {
+    color: #FFE8C6;
+}
+
+.topnav a.active {
+    color: #FFE8C6;
+}
+
+
+/* HOME PAGE --------------------------------------------------------------------- */
+.row {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+#rainbow {
+	display: block;
+	overflow: hidden;
+	width: 100%;
+	height: 400px;
+	float: left;
+	object-fit: cover; /* this affects what part of the image we can see depending on the size of the window */
+	/* TO DO: how do I get rid of left and right space? */
+}
+
+
+/* ---------------SAINTISH GIVEAWAY----------------- */
+#fffbf4-2 {
+	height: 480px;
+}
+
+.saint {
+	width: 930px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 450px;
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+
+.saint img {
+	float: right;
+	width: 500px;
+	padding: 40px;
+}
+
+.saint h3 {
+	color: #EFA7A0;
+	font-size: 36px;
+	text-align: right;
+	width: 400px;
+	margin-bottom: 0;
+	padding-top: 120px;
+}
+
+.saint p {
+	color: #EFA7A0;
+	font-size: 18px;
+	text-align: right;
+	margin-top: 0;
+	position: relative;
+}
+
+.saint button {
+	position: relative;
+	overflow: hidden;
+	width: 200px;
+	display: block;
+	background-color: #EFA7A0;
+	border: none;
+	font-family: 'Fugaz One';
+	font-size: 24px;
+	text-align: center;
+	padding: 5px;
+	text-decoration: none; 
+	border-radius: 12px;
+	cursor: pointer;
+	left: 150px;
+}
+
+.saint button a {
+	color: #FFFBF4;
+}
+
+.saint button:hover {
+	background-color: #F5B8B2;
+}
+
+/* ---------------MAC GIVEAWAY----------------- */
+.macgiveaway {
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	height: 550px;
+	margin-bottom: 0;
+}
+
+#macgiveaway {
+	padding: 20px;
+	float: left;
+	width: 500px;
+	height: 500px;
+}
+
+.macgiveaway h3 {
+	position: relative;
+	color: #EFA7A0;
+	font-size: 36px;
+	padding-top: 200px;
+	margin-bottom: 0;
+}
+
+.macgiveaway p {
+	position: relative;
+	color: #EFA7A0;
+	font-size: 18px;
+	margin-top: 0;
+}
+
+.macgiveaway button {
+	position: relative;
+	overflow: hidden;
+	width: 200px;
+	display: block;
+	background-color: #EFA7A0;
+	border: none;
+	font-family: 'Fugaz One';
+	font-size: 24px;
+	text-align: center;
+	padding: 5px;
+	text-decoration: none; 
+	border-radius: 12px;
+	cursor: pointer;
+}
+
+.macgiveaway button a {
+	color: #FFFBF4;
+}
+
+.macgiveaway button:hover {
+	background-color: #F5B8B2;
+}
+
+
+/* ---------------NEW REDBUBBLE SHOP----------------- */
+#fffbf4-1 {
+	background-size: cover;
+	height: 640px;
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+
+.newredbubble {
+	width: 1150px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 650px;
+}
+
+#newredbubble {
+	position: relative;
+	float: right;
+	margin-top: 50px;
+	padding: 20px;
+	/* margin-bottom: 170px; */
+}
+
+.newredbubble h3 {
+	position: relative;
+	color: #F1A48A;
+	font-size: 36px;
+	padding-top: 230px;
+	/* top: 200px; */
+	/* padding-top: 250px; */
+	width: 270px;
+	text-align: right;
+}
+
+.newredbubble button {
+	position: relative;
+	overflow: hidden;
+	width: 200px;
+	display: block;
+	background-color: #F1A48A;
+	border: none;
+	font-family: 'Fugaz One';
+	font-size: 24px;
+	text-align: center;
+	padding: 5px;
+	text-decoration: none; 
+	border-radius: 12px;
+	cursor: pointer;
+	/* margin-bottom: 15px; */
+	/* top: 170px; */
+	left: 70px;
+}
+
+.newredbubble button a {
+	color: #FFFBF4;
+}
+
+.newredbubble button:hover {
+	background-color: #F5B8B2;
+}
+
+
+/* ---------------GIF TUTORIAL----------------- */
+.gif_tutorial_1 {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 800px;
+}	
+
+#tutorial {
+	position: relative;
+	overflow: hidden;
+	float: left;
+	margin: 20px;
+	width: 400px;
+	height: 720px;
+	margin-top: 50px;
+}
+
+.gif_tutorial_1 h3 {
+	float: left;
+	position: relative;
+	color: #EFA7A0;
+	font-size: 36px;
+	padding-top: 270px;
+}
+
+.gif_tutorial_1 p {
+	position: relative;
+	float: left;
+	color: #EFA7A0;
+	font-size: 18px;
+	text-transform: uppercase;
+	max-width: 320px;
+}
+
+
+/* ---------------NEW GIFS----------------- */
+.gifside {
+	float: left; 
+	width: 15%;
+	padding: 5px;
+}
+
+.gif {
+	float: left;
+	width: 70%;
+	padding: 5px;
+	height: 250px;
+}
+
+.biggifrow:after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.gifcol {
+	box-sizing: border-box;
+	float: left;
+	padding: 10px;
+	width: 25%;
+}
+
+.gifrow:after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.gifcol img {
+	width: 100%;
+	margin-bottom: 50px;
+}
+	
+#efa7a0-1 {
+	background-size: cover;
+	height: 430px;
+	background-repeat: no-repeat;
+}	
+
+.gifs h3 {
+	color: #FFFBF4;
+	font-size: 36px;
+	text-align: center;
+	width: 250px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	overflow: hidden;
+	top: 50px;
+}
+
+.gifs p {
+	color: #FFFBF4;
+	font-size: 18px;
+	text-transform: uppercase;
+	text-align: center;
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	overflow: hidden;
+}
+
+
+/* FOOTER WITH SOCIAL MEDIA BUTTONS AND MY NAME */
+footer {
+	background-color: #FFFBF4;
+	position: fixed;
+	overflow: hidden;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	padding: 0;
+	color: #EFA7A0;
+}
+
+footer #socials {
+	float: left;
+	padding-left: 30px;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-family: 'Darker Grotesque';
+}
+
+footer #author {
+	float: right;
+	padding-right: 30px;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-family: 'Darker Grotesque';
+}
+
+#ig {
+	margin-left: 7px;
+	margin-top: 15px;
+	width: 30px;
+	height: 30px;
+}
+
+#pinterest {
+	margin-top: 15px;
+	width: 30px;
+	height: 30px;
+}

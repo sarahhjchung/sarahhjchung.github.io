@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>chxrrypie</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="header">
+   <!-- CHXRRYPIE Title -->
+   <img id="title" src="chxrrypie.png" alt="Title">
+</div>
+
+<!-- Top Navigation Bar -->
+<div class="topnav">
+   <a href="index.html">Home</a>
+   <a class="active" href="art.html">Art</a>
+   <a href="shop.html">Shop</a>
+   <a href="about.html">About Me</a>
+</div>
+
+<!-- Side Social Media Icon Buttons -->
+<a href="https://www.instagram.com/chxrry.pie/"><img id="ig" src="ig_button.png" alt="IG"></a>
+<a href="https://www.pinterest.ca/chxrrypie0621/boards/"><img id="pinterest" src="pinterest_button.png" alt="Pinterest"></a>
+
+</body>
+</html>
