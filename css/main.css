@@ -344,6 +344,15 @@ body {
 
 /*--- Relevant Courses and Topics page ---*/
 
+.flip-me {
+    color: #8338EC;
+    font-style: italic;
+    display: block;
+    width: 720px;
+    margin: auto;
+    text-align: center;
+}
+
 .flip-card {
     background-color: transparent;
     width: 720px;
