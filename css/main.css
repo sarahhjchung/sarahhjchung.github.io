@@ -93,7 +93,7 @@ body {
         font-size: 28px;
         text-align: center;
         border: none;
-        background-color: #FB5607;
+        background-color: #FFBE0B;
         color: #E5E5E5;
         box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
         text-decoration: none;
@@ -112,8 +112,8 @@ body {
         text-align: center;
         margin-left: 30px;
         background-color: #E5E5E5;
-        color: #FB5607;
-        border-color: #FB5607;
+        color: #FFBE0B;
+        border-color: #FFBE0B;
         border-width: 5px;
         box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
         text-decoration: none;
@@ -132,7 +132,7 @@ body {
 }
 
 .languages-used {
-    color: #FF006E;
+    color: #FB5607;
     font-size: large;
     word-spacing: 30px;
     font-family: monospace;
@@ -169,7 +169,7 @@ body {
     width: 60%;
     display: block;
     margin: auto;
-    box-shadow: 5px 10px 8px #FF006E;
+    box-shadow: 5px 10px 8px #FB5607;
 }
 
 #chxrrypie-website-header {
@@ -195,7 +195,7 @@ body {
     width: 480px;
     display: block;
     margin: auto;
-    box-shadow: 5px 10px 8px #FF006E;
+    box-shadow: 5px 10px 8px #FB5607;
 }
 
 #game-website-header {
@@ -217,7 +217,7 @@ body {
     display: block;
     width: 60%;
     margin: auto;
-    box-shadow: 5px 10px 8px #FF006E;
+    box-shadow: 5px 10px 8px #FB5607;
 }
 
 #csc-project-header {
@@ -256,7 +256,7 @@ body {
     width: auto;
     margin-top: -22px;
     padding: 16px;
-    color: #FF006E;
+    color: #FB5607;
     font-weight: bold;
     font-size: 18px;
     transition: 0.6s ease;
@@ -273,7 +273,7 @@ body {
 
     /* On hover, add a black background color with a little bit see-through */
     .prev:hover, .next:hover {
-        background-color: #FF006E;
+        background-color: #FB5607;
         color: #E5E5E5;
         border-radius: 12px;
     }
@@ -291,7 +291,7 @@ body {
 }
 
     .active, .dot:hover {
-        background-color: #FF006E;
+        background-color: #FB5607;
     }
 
 /* Caption text */
@@ -341,6 +341,68 @@ body {
         opacity: 1
     }
 }*/
+
+/*--- More Projects Page ---*/
+.row {
+    height: 10%;
+}
+
+.column {
+    height: 100%;
+    background-color: #FF006E;
+    border-radius: 12px;
+    box-shadow: 5px 5px 8px #838383;
+    margin: 3%;
+}
+
+.column-content {
+    margin: 5%;
+    padding-top: 5%;
+}
+
+.features {
+    margin: 4em auto;
+    padding: 1em;
+    position: relative;
+}
+
+.more-projects-header {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.more-projects-title {
+    text-align: left;
+    color: white;
+/*    padding: 2%;*/
+}
+
+.more-projects-description {
+    color: #E5E5E5;
+    text-align: justify;
+    /*padding: 2%;*/
+}
+
+.more-languages-used {
+    color: white;
+    font-size: large;
+    word-spacing: 25px;
+    font-family: monospace;
+    font-weight: bold;
+    text-align: left;
+/*    padding: 10px 2% 2% 2%;
+*/}
+
+.more-link-button img {
+    width: 30px;
+    margin: 5px;
+    float: right;
+}
+
+    .more-link-button img:hover {
+        cursor: pointer;
+        opacity: 0.6;
+    }
 
 /*--- Relevant Courses and Topics page ---*/
 
