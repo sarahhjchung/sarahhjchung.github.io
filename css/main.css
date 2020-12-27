@@ -164,12 +164,19 @@ body {
     /* font-size: 48px; */
 }
 
+.project-image {
+    /*border: solid;
+    border-color: #FB5607;*/
+    border-radius: 12px;
+    /*border-width: 5px;*/
+    box-shadow: 5px 5px 5px #838383;
+}
+
 /*---Chxrrypie Website---*/
 #chxrrypie-img {
     width: 60%;
     display: block;
-    margin: auto;
-    box-shadow: 5px 10px 8px #FB5607;
+    margin: auto;    
 }
 
 #chxrrypie-website-header {
@@ -195,7 +202,6 @@ body {
     width: 480px;
     display: block;
     margin: auto;
-    box-shadow: 5px 10px 8px #FB5607;
 }
 
 #game-website-header {
@@ -217,7 +223,6 @@ body {
     display: block;
     width: 60%;
     margin: auto;
-    box-shadow: 5px 10px 8px #FB5607;
 }
 
 #csc-project-header {
@@ -234,6 +239,13 @@ body {
     text-align: center;
 }
 
+.disabled-button {
+    opacity: 0.6;
+}
+
+    .disabled-button img:hover{
+        cursor: not-allowed;
+    }
 
 /* Slideshow container */
 .slideshow-container {
