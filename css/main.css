@@ -94,7 +94,7 @@ a {
         border-radius: 12px;
         height: 56px;
         width: 148px;
-        font-size: 28px;
+        font-size: 130%;
         text-align: center;
         border: none;
         background-color: #FFBE0B;
@@ -112,7 +112,7 @@ a {
         border-radius: 12px;
         height: 56px;
         width: 148px;
-        font-size: 28px;
+        font-size: 130%;
         text-align: center;
         margin-left: 30px;
         background-color: #E5E5E5;
@@ -143,18 +143,18 @@ a {
     font-weight: bold;
     text-align: right;
     padding-top: 10px;
-    width: 86%;
+    float: right;
+    /*width: 88%;*/
     display: inline-block;
-    margin-right: 5%;
+    /*margin-right: 5%;*/
 }
 
 .link-button img {
-    width: 30px;
+    width: 24px;
     display: inline-block;
     padding-top: 10px;
     float: left;
-    margin-left: 5%;
-    
+    /*margin-left: 5%;*/
 }
 
     .link-button img:hover {
@@ -176,6 +176,13 @@ a {
     box-shadow: 5px 5px 5px #838383;
 }
 
+.featured-description {
+    display: block;
+    color: #4D4D4D;
+    font-style: italic;
+    text-align: justify;
+}
+
 /*---Chxrrypie Website---*/
 #chxrrypie-img {
     width: 60%;
@@ -195,7 +202,7 @@ a {
     display: block;
     color: #4D4D4D;
     font-style: italic;
-    text-align: center;
+    text-align: justify;
     /*width: 80%;
     margin: auto;*/
 }
@@ -219,7 +226,7 @@ a {
     display: block;
     color: #4D4D4D;
     font-style: italic;
-    text-align: center;
+    text-align: justify;
 }
 
 /*--- CSC207 Project ---*/
@@ -240,7 +247,7 @@ a {
     display: block;
     color: #4D4D4D;
     font-style: italic;
-    text-align: center;
+    text-align: justify;
 }
 
 .disabled-button {
@@ -530,7 +537,7 @@ a {
     border-radius: 12px;
     height: 54px;
     width: 148px;
-    font-size: 28px;
+    font-size: 130%;
     text-align: center;
     border: none;
     background-color: #3A86FF;
