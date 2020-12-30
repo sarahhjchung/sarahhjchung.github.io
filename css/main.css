@@ -54,16 +54,6 @@ a {
     outline: none;
 }
 
-/*.instagram img {
-    width: 36px;
-    height: 36px;
-    outline: none;
-}
-
-    .instagram img:hover {
-        opacity: 0.5;
-    }*/
-
 /*--- Landing Page ---*/
 
 .description {
@@ -433,14 +423,14 @@ a {
     color: #8338EC;
     font-style: italic;
     display: block;
-    width: 720px;
+    width: 80%;
     margin: auto;
     text-align: center;
 }
 
 .flip-card {
     background-color: transparent;
-    width: 720px;
+    width: 70%;
     height: 320px;
     margin-left: auto;
     margin-right: auto;
@@ -460,7 +450,7 @@ a {
 }
 
 /* Do an horizontal flip when you move the mouse over the flip box container */
-.flip-card:hover .flip-card-inner {
+.flip-card:active .flip-card-inner {
     transform: rotateY(180deg);
     cursor: pointer;
 }
@@ -472,6 +462,7 @@ a {
     height: 100%;
     -webkit-backface-visibility: hidden; /* Safari */
     backface-visibility: hidden;
+    overflow: auto;
 }
 
 /* Style the front side (fallback if image is missing) */
