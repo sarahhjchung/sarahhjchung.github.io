@@ -28,8 +28,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
 
+    <!-- WOW.js-->
+    <script src="http://mynameismatthieu.com/WOW/dist/wow.min.js"></script>
+
+    <!-- animate.css -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
 </head>
 <body id="start">
+    <script>
+        new WOW().init();
+    </script>
 
     <!-- JQuery -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -41,7 +51,7 @@
         <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#main-navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="main-navigation">
+        <div class="collapse navbar-collapse wow animate__animated animate__fadeIn" id="main-navigation">
             <ul class="navbar-nav">
                 <li class="nav-item">
                     <a class="nav-link" href="#Projects">Projects</a>
@@ -64,15 +74,15 @@
     <!-- Landing Page -->
     <header class="page-header header container-fluid">
         <div class="description">
-            <h1>Hi. Welcome to <br /> Sarah Chung's Portfolio.</h1>
-            <p>
+            <h1 class="animate__animated animate__fadeIn animate__delay-1s">Hi. Welcome to <br /> Sarah Chung's Portfolio.</h1>
+            <p class="animate__animated animate__fadeIn animate__delay-2s">
                 I am a 2nd year student specializing in <span style="color: #4D4D4D">Computer Science</span>
                 at the <span style="color: #4D4D4D">University of Toronto</span>.
                 <br /> I am passionate about web development, game design, UX/UI, and all creative things
                 <br /> you can find in this large field!
             </p>
         </div>
-        <div class="buttons">
+        <div class="buttons animate__animated animate__fadeIn animate__delay-3s">
             <a href="links/Resume_Sarah_Chung.pdf" target="_blank">
                 <button type="button" class="resume">Resume</button>
             </a>
@@ -84,7 +94,7 @@
     </header>
 
     <!-- Projects Page -->
-    <div id="Projects" class="container-fluid">
+    <div id="Projects" class="container-fluid wow animate__animated animate__fadeInUp animate__delay-1s">
         <h2 class="personal-projects">My Featured Projects</h2>
         <!-- Slideshow container -->
         <div class="slideshow-container">
@@ -97,7 +107,7 @@
                     <p class="featured-description" id="chxrrypie-description">
                         A website for illustrator chxrry.pie to
                         combine all of her art, social medias, shops, collaborations, giveaways,
-                        and more in one place for her followers to easily access. Best to view 
+                        and more in one place for her followers to easily access. Best to view
                         on a desktop.
                     </p>
                     <p class="languages-used">HTML CSS</p>
@@ -167,7 +177,7 @@
     </div>
 
     <!-- More Projects -->
-    <div class="container-fluid">
+    <div class="container-fluid wow animate__animated animate__fadeInUp animate__delay-1s">
         <h2 class="more-projects-header">More Personal Projects</h2>
         <div class="container features">
             <div class="row">
@@ -188,7 +198,7 @@
                             <a class="more-link-button" href="https://github.com/sarahhjchung/Blocky" target="_blank">
                                 <img src="images/github_logo.png" alt="Blocky Github" />
                             </a>
-                        </div>                        
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12">
@@ -207,7 +217,7 @@
                             <a class="more-link-button" href="https://github.com/sarahhjchung/sarahhjchung.github.io" target="_blank">
                                 <img src="images/github_logo.png" alt="Personal Website Github" />
                             </a>
-                        </div>                       
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12">
@@ -222,7 +232,7 @@
     </div>
 
     <!-- Relevant Courses and Topics -->
-    <div id="Courses" class="container-fluid">
+    <div id="Courses" class="container-fluid wow animate__animated animate__fadeInUp animate__delay-1s">
         <h6 class="flip-me">Click me!</h6>
         <div class="flip-card">
             <div class="flip-card-inner">
@@ -252,7 +262,7 @@
 
     <!-- Contact Me -->
     <div id="Contact" class="container-fluid">
-        <div class="contact-page">
+        <div class="contact-page wow animate__animated animate__fadeInUp animate__delay-1s">
             <h2 class="contact-header">Contact Me</h2>
             <p class="contact-description">
                 I’d love to get in touch with you!
@@ -265,7 +275,7 @@
                 </a>
             </div>
         </div>
-        
+
     </div>
 
     <!-- Footer -->
@@ -313,6 +323,7 @@
             slides[slideIndex - 1].style.display = "block";
             dots[slideIndex - 1].className += " active";
         }
+
     </script>
 
 </body>
