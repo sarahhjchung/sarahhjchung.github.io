@@ -639,6 +639,17 @@ footer {
         opacity: 0.7;
     }
 
+.vsco img {
+    width: 30px;
+    display: inline-block;
+    float: right;
+    padding-left: 10px;
+}
+
+    .vsco:hover {
+        opacity: 0.7;
+    }
+
 .instagram img {
     width: 30px;
     display: inline-block;
