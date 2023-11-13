@@ -1,0 +1,9 @@
+{
+  "Main": {
+    "title": "Welcome to Sarah’s Portfolio",
+    "subtitle": "I’m a Computer Science Specialist student at the University of Toronto. I’m striving to become a creative developer and designer.",
+    "projectsLabel": "My Projects",
+    "aboutMeLabel": "About Me",
+    "contactMeLabel": "Contact Me"
+  }
+}
