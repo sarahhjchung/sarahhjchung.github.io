@@ -5,5 +5,14 @@
     "projectsLabel": "My Projects",
     "aboutMeLabel": "About Me",
     "contactMeLabel": "Contact Me"
+  },
+  "Projects": {
+    "title": "My Projects"
+  },
+  "About": {
+    "title": "About Me"
+  },
+  "Contact": {
+    "title": "Contact Me"
   }
 }

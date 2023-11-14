@@ -1,5 +1,7 @@
 import { MenuSquare } from "lucide-react";
 
+import { Link } from "react-router-dom";
+
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -14,18 +16,26 @@ export function Menu() {
         <MenuSquare className="menu" />
       </DropdownMenuTrigger>
       <DropdownMenuContent className="w-24 border-foreground">
-        <DropdownMenuItem>
-          <span>Home</span>
-        </DropdownMenuItem>
-        <DropdownMenuItem>
-          <span>Projects</span>
-        </DropdownMenuItem>
-        <DropdownMenuItem>
-          <span>About</span>
-        </DropdownMenuItem>
-        <DropdownMenuItem>
-          <span>Contact</span>
-        </DropdownMenuItem>
+        <Link to="/">
+          <DropdownMenuItem>
+            <span>Home</span>
+          </DropdownMenuItem>
+        </Link>
+        <Link to="/projects">
+          <DropdownMenuItem>
+            <span>Projects</span>
+          </DropdownMenuItem>
+        </Link>
+        <Link to="/about">
+          <DropdownMenuItem>
+            <span>About</span>
+          </DropdownMenuItem>
+        </Link>
+        <Link to="/contact">
+          <DropdownMenuItem>
+            <span>Contact</span>
+          </DropdownMenuItem>
+        </Link>
       </DropdownMenuContent>
     </DropdownMenu>
   );
