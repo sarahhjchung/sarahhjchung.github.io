@@ -1,7 +1,7 @@
 import React from "react";
 
 import Strings from "@/locales/en.json";
-import deskSVG from "@/assets/desk.svg";
+import { DeskSVG } from "@/components/DeskSVG";
 
 export function Home() {
   return (
@@ -20,8 +20,7 @@ export function Home() {
           <span className="font-bold">creative developer and designer</span>.
         </h4>
       </div>
-
-      <img src={deskSVG} alt="Desk Illustration" />
+      <DeskSVG />
     </div>
   );
 }
