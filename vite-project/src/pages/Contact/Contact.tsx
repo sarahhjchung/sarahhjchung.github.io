@@ -1,5 +1,3 @@
-import React from "react";
-
 import Strings from "@/locales/en.json";
 
 export function Contact() {
