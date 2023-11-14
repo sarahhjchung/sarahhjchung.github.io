@@ -88,7 +88,7 @@
     @apply text-lg md:text-xl font-sans text-center;
   }
   .logo {
-    @apply h-9 w-9 hover:drop-shadow-md cursor-pointer;
+    @apply h-9 w-9 cursor-pointer;
   }
   .menu {
     @apply h-10 w-10 stroke-1 hover:drop-shadow-md cursor-pointer;
