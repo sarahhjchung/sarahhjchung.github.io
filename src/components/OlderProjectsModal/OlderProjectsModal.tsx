@@ -8,12 +8,13 @@ import {
 } from "@/components/ui/dialog";
 import Strings from "@/locales/en.json";
 import { FolderClosed } from "lucide-react";
+import { Badge } from "../ui/badge";
 
 export function OlderProjectsModal() {
   return (
     <Dialog>
       <DialogTrigger asChild>
-        <Button>
+        <Button variant={"outline"}>
           <FolderClosed className="mr-2 h-4 w-4" />{" "}
           {Strings.Projects.olderProjectsButton}
         </Button>
@@ -22,8 +23,9 @@ export function OlderProjectsModal() {
         <DialogHeader>
           <DialogTitle>{Strings.Projects.olderProjectsButton}</DialogTitle>
         </DialogHeader>
-        <div className="grid gap-4 py-4">
+        <div>
           <p>Hello world!</p>
+          <Badge variant={"outline"}>Figma</Badge>
         </div>
       </DialogContent>
     </Dialog>
