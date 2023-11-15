@@ -3,7 +3,7 @@ import { DeskSVG } from "@/components/DeskSVG";
 
 export function Home() {
   return (
-    <div className="container py-12 flex flex-col gap-y-12 items-center justify-center">
+    <div className="container py-4 md:py-12 flex flex-col gap-y-12 items-center justify-center">
       {/* <div className="flex flex-row w-full justify-between">
         <img src={logoSVG} alt="Logo" className="logo" />
         <Menu />

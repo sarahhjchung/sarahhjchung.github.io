@@ -7,7 +7,9 @@
     "contactMeLabel": "Contact Me"
   },
   "Projects": {
-    "title": "My Projects"
+    "title": "My Projects",
+    "recentProjectsButton": "Recent Projects",
+    "olderProjectsButton": "Older Projects"
   },
   "About": {
     "title": "About Me"
