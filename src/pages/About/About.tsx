@@ -11,7 +11,7 @@ export function About() {
       <img
         src={aboutSVG}
         alt="About Me"
-        className="absolute bottom-0 w-3/5 stroke-accent/30"
+        className="absolute bottom-0 w-3/5 opacity-70"
       />
       <h1>{Strings.About.title}</h1>
       <div className="flex flex-col items-center justify-center gap-y-8 md:w-5/6">
