@@ -15,22 +15,10 @@ export function About() {
       />
       <h1>{Strings.About.title}</h1>
       <div className="flex flex-col items-center justify-center gap-y-8 md:w-5/6">
-        <h3>My Passions</h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu non
-          diam phasellus vestibulum lorem sed risus ultricies. Gravida arcu ac
-          tortor dignissim convallis aenean. Eu feugiat pretium nibh ipsum
-          consequat nisl vel pretium lectus.
-        </p>
-        <h3>My Work Experiences</h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu non
-          diam phasellus vestibulum lorem sed risus ultricies. Gravida arcu ac
-          tortor dignissim convallis aenean. Eu feugiat pretium nibh ipsum
-          consequat nisl vel pretium lectus.
-        </p>
+        {/* <h3>{Strings.About.myPassionsTitle}</h3>
+        <p className="text-center">{Strings.About.passions}</p> */}
+        <h3>{Strings.About.myWorkExperienceTitle}</h3>
+        <p>{Strings.About.workExperience}</p>
         <div className="flex flex-row items-center justify-center gap-x-4">
           <img
             src={techinternPNG}

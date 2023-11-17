@@ -14,7 +14,7 @@ export function DeskSVG() {
         <path
           d="M163.5 146V70.5L277.5 65L298 139.5M163.5 146L298 139.5M163.5 146L156.5 204.5L309 197L298 139.5M168.5 139.5V77L274 70.5L290 132L168.5 139.5ZM171.5 152.5L168.5 179L294 171.5L287 146L171.5 152.5ZM208.5 183.5V197L240.5 193.5L238.5 181L208.5 183.5Z"
           stroke="#243956"
-          className="fill-background hover:stroke-primary-foreground hover:stroke-2 hover:fill-primary cursor-pointer"
+          className="fill-background hover:stroke-secondary-foreground hover:stroke-2 hover:fill-secondary cursor-pointer"
           id="projects"
         />
       </Link>
@@ -23,7 +23,7 @@ export function DeskSVG() {
         <path
           d="M331 201H310L296.5 206.5L254.5 187L268.5 179L279 120.5L288.5 102L315 108.5L331 102H353L363.5 120.5L392 179H404V187L378.5 194L353 201H342M331 201L322.5 233.5H296.5L279 242L254.5 261L247.5 293H407.5L395 247.5L378.5 238.5H342V201M331 201H342"
           stroke="#243956"
-          className="fill-background hover:stroke-primary-foreground hover:stroke-2 hover:fill-primary cursor-pointer"
+          className="fill-background hover:stroke-secondary-foreground hover:stroke-2 hover:fill-secondary cursor-pointer"
           id="about"
         />
       </Link>
@@ -32,7 +32,7 @@ export function DeskSVG() {
         <path
           d="M491 188.281L483.5 189L491 249.5L529.5 246.5L520 185.5L511.5 186.315M491 188.281V193H511.5V186.315M491 188.281L511.5 186.315"
           stroke="#243956"
-          className="fill-background hover:stroke-primary-foreground hover:stroke-2 hover:fill-primary cursor-pointer"
+          className="fill-background hover:stroke-secondary-foreground hover:stroke-2 hover:fill-secondary cursor-pointer"
           id="contact"
         />
       </Link>

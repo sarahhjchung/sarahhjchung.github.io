@@ -12,7 +12,11 @@
     "olderProjectsButton": "Older Projects"
   },
   "About": {
-    "title": "About Me"
+    "title": "About Me",
+    "myPassionsTitle": "My Passions",
+    "myWorkExperienceTitle": "My Work Experiences",
+    "passions": "I'm always trying new things and I think that's what makes me hold onto a lot of passions and hobbies. Currently, my recent favourites include travelling to new places, baking new recipes, and painting using my new watercolour set. But of course, I have things I've consistently enjoyed! I've been playing sports, the piano, and a variety of board games since elementary school.",
+    "workExperience": ""
   },
   "Contact": {
     "title": "Contact Me"
