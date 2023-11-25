@@ -3,8 +3,8 @@ export interface Project {
   title: string;
   labels: string[];
   description: string;
-  link: string;
-  linkType: LinkType;
+  links: string[];
+  linkTypes: LinkType[];
 }
 
 export enum LinkType {

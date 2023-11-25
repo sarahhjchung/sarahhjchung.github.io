@@ -9,7 +9,7 @@ export function Contact() {
       <img
         src={contactSVG}
         alt="Contact Me"
-        className="absolute bottom-0 h-3/4 opacity-70"
+        className="absolute bottom-0 h-4/5 opacity-70"
       />
       <h1>{Strings.Contact.title}</h1>
       <div className="z-10 flex flex-col pt-36 gap-y-16 md:w-5/6 items-center justify-center">
