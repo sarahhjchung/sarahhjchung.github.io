@@ -15,13 +15,13 @@ export function Contact() {
       <div className="z-10 flex flex-col pt-36 gap-y-16 md:w-5/6 items-center justify-center">
         <div className="flex flex-row gap-x-24 justify-center items-center">
           <a href={resumePDF} target="_blank">
-            <div className="cursor-pointer hover:stroke-secondary hover:text-secondary">
+            <div className="cursor-pointer hover:stroke-primary hover:text-primary">
               <FileText className="h-16 w-16 stroke-1" />
               <p className="subtitle">Resume</p>
             </div>
           </a>
           <a href="mailto: sarahc0304@gmail.com" target="_blank">
-            <div className="cursor-pointer hover:stroke-secondary hover:text-secondary">
+            <div className="cursor-pointer hover:stroke-primary hover:text-primary">
               <Mail className="h-16 w-16 stroke-1" />
               <p className="subtitle">Email</p>
             </div>
@@ -32,13 +32,13 @@ export function Contact() {
             href="https://www.linkedin.com/in/sarah-chung-59a923202/"
             target="_blank"
           >
-            <div className="cursor-pointer hover:stroke-secondary hover:text-secondary">
+            <div className="cursor-pointer hover:stroke-primary hover:text-primary">
               <Linkedin className="h-16 w-16 stroke-1" />
               <p className="subtitle">LinkedIn</p>
             </div>
           </a>
           <a href="https://github.com/sarahhjchung" target="_blank">
-            <div className="cursor-pointer hover:stroke-secondary hover:text-secondary">
+            <div className="cursor-pointer hover:stroke-primary hover:text-primary">
               <Github className="h-16 w-16 stroke-1" />
               <p className="subtitle">Github</p>
             </div>

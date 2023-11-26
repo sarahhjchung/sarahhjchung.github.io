@@ -15,10 +15,8 @@
     "title": "About Me",
     "myPassionsTitle": "My Passions",
     "myWorkExperienceTitle": "My Work Experiences",
-    "passions1": "Hey I'm Sarah, an eager student with a passion for blending code and creativity. From the start of university, I entered the dynamic world of computer science where I found joy in transforming code into creative and user-friendly solutions. But my journey goes beyond the screen — I'm equally captivated by the world of design, constantly seeking ways to infuse aesthetics into my projects.",
-    "passions2": "What fuels my enthusiasm is not just the technical learnings but the opportunity to collaborate with various people and gain new experiences. When I'm not immersed in my projects, you'll likely find me experimenting with new recipes, sports, and games with my friends.",
-    "workExperience1": "My professional journey has been a colorful palette, with work experiences ranging from full-stack development at a start-up, web design at a work-study, to data engineering at Wattpad.",
-    "workExperience2": "I’m always looking forward to learning something new. For my next internship, I am seeking an opportunity to contribute more of my visual and design skills into technical projects. Let’s connect, work together, and create something extraordinary!"
+    "passions": "Hey, I'm Sarah, an eager student with a passion for blending code and creativity. At the start of university, I entered the dynamic world of computer science where I found joy in transforming code into creative and user-friendly solutions. But my journey goes beyond the screen — I'm equally captivated by the world of design, constantly seeking ways to infuse aesthetics into my projects. When I'm not immersed in work, you'll likely find me experimenting with new recipes, sports, and games with my friends.",
+    "workExperience": "My professional journey has been a colorful palette, with work experiences ranging from full-stack development at a start-up, web design at a work-study, to data engineering at Wattpad. I’m always looking forward to learning something new. For my next internship, I am seeking an opportunity to contribute more of my visual and design skills into technical projects. Let’s connect, work together, and create something extraordinary!"
   },
   "Contact": {
     "title": "Contact Me"

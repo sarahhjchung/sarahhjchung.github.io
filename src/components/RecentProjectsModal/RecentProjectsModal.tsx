@@ -24,7 +24,17 @@ const getTogetherProject = {
   title: "GetTogether",
   labels: ["Figma", "UI/UX"],
   description:
-    "In this project, I worked with a group of students to design a mobile app to facilitate meaningful student connections. Through a user-centric approach, I meticulously crafted varioufield studies, storyboards, paper prototypes, and a high-fidelity prototype on Figma. Through initial research, we discovered that students want to easily participate in non-academic related events to meet new people. For the final prototype, I spearheaded intuitive interfaces and incorporated the features allowing of easy event creation and exploration on campus. Overall, this project taught me the intracacies of user experience research and prototyping and ignited my passion for user-friendly design and applications.",
+    "In this project, I worked with a group of students to design \
+    a mobile app to facilitate meaningful student connections. \
+    Through a user-centric approach, I meticulously crafted various \
+    field studies, storyboards, paper prototypes, and a high-fidelity \
+    prototype on Figma. Through initial research, we discovered that \
+    students want to easily participate in non-academic related events \
+    to meet new people. For the final prototype, I spearheaded \
+    intuitive interfaces and designed features allowing for easy \
+    event creation and exploration on campus. Overall, this project \
+    taught me the intracacies of UX research and prototyping, \
+    and ignited my passion for user-friendly design and applications.",
   links: [
     "https://www.figma.com/proto/2Vl6FshnkU3qlTmsfMwS42/Prototype?node-id=322-4973&scaling=scale-down&page-id=322%3A4972&starting-point-node-id=322%3A4973&hide-ui=1",
   ],
@@ -34,9 +44,18 @@ const getTogetherProject = {
 const outhouseProject = {
   imgSRC: outhouse,
   title: "Outhouse",
-  labels: ["React", "Javascript", "Express"],
+  labels: ["React", "JavaScript", "Express"],
   description:
-    "In this project, I worked with a small group of students to design and develop a website to help students find the best washrooms on campus; this idea came to me when I personally had troubles finding a good washroom in the most desparate times. We used React Javascript to develop various features to allow students to find washrooms near them, view washroom reviews, leave reviews for washrooms, and get important announcements on specific washrooms (ie. a washroom being closed for repairs). This end-to-end project taught me the skills to set up a web application from the ground up and split up tasks effeciently to collaborate with other students on a large project.",
+    "In this project, I worked with a small group of students to design \
+    and develop a website to help students find the best washrooms on \
+    campus; this idea came to me when I personally had troubles finding \
+    a good washroom in the most desperate times. We used React \
+    to develop various features allowing students to find washrooms near \
+    them, view washroom reviews, leave reviews for washrooms, and receive \
+    important announcements on washrooms (ie. a washroom being \
+    closed for repairs). This end-to-end project taught me the skills \
+    to set up a web application from the ground up and split up large tasks \
+    to effeciently collaborate with other students.",
   links: ["https://github.com/sarahhjchung/outhouse"],
   linkTypes: [LinkType.Github],
 };
@@ -44,9 +63,16 @@ const outhouseProject = {
 const chattyjsProject = {
   imgSRC: chattyjs,
   title: "ChattyJS",
-  labels: ["Javascript", "Express"],
+  labels: ["JavaScript", "Express"],
   description:
-    "In this project, I learned to design, develop, and document a Javascript package. Although this project was a great opportunity to practice my front-end development skills with Javascript, my biggest takeaway from this project was learning to write good documentation. This included learning to write an API documentation detailing important information about my functions, its parameters, and its return values. Additionally, I learned to organize my files and comments and apply good naming conventions and clean code. Overall, completing this project made me appreciate reading good documentation even more.",
+    "In this project, I learned to design, develop, and document a \
+    JavaScript package. On top of this project being a great opportunity to \
+    practice my front-end development skills with JavaScript, my biggest \
+    takeaway was learning to write good documentation. \
+    This included learning to write an API documentation detailing \
+    important information about my functions, its parameters, and its \
+    return values. Additionally, I learned to organize my files and \
+    comments, apply good naming conventions, and writing clean code.",
   links: ["https://github.com/sarahhjchung/chattyjs"],
   linkTypes: [LinkType.Github],
 };
@@ -56,7 +82,20 @@ const articulateProject = {
   title: "Articulat3",
   labels: ["React", "TypeScript", "Tailwind"],
   description:
-    "In this project, I worked as a designer, project manager, and a frontend developer in a team to create a web application for allowing easy 3D graphics creation for designers, game developers, and content creators. Initially, I designed the prototype of the website on Figma and made iterative change to them from consistent feedback. Then, using React Typesecript, Tailwind, and shacn/ui components, we set up the client side of the web application and developed responsive features for quick 3D object generation and a gallery to explore existing 3D graphics for inspiration. This project allowed me to dip my toes in many roles required for building an application; I believe it added perspective when coding and allowed me to maintain a user-focused approach from the beginning to the end. I also gained a ton of organizational experience having to keep good communication between all members and sub-groups of the team, ensuring we are on track for completing our deliverables.",
+    "In this project, I worked as a designer, project manager, and a \
+    frontend developer as part of a team to create a web application \
+    with end-to-end features offering easy 3D object creation useful for \
+    designers, game developers, and content creators. I designed the \
+    prototype on Figma and made iterative change to them while \
+    receiving consistent feedback. Then using React, Tailwind, and \
+    shadcn/ui components, we set up the client side of the web \
+    application and developed responsive, user-friendly features. \
+    This project allowed me to dip my toes in various roles required \
+    for building an application; it added perspective when coding and \
+    helped me maintain a user-focused approach in all steps of the project. \
+    Additionally, I gained organizational experience from having to facilitate \
+    good communication between all members of the team to ensure we are on \
+    track for completing our deliverables.",
   links: [
     "https://articulat3.fly.dev/",
     "https://www.figma.com/file/PiuZtndJxjyLuyAER2jeSh/Articulate?type=design&node-id=0-1&mode=design&t=fuTBVtd6aK1Td4PR-0",

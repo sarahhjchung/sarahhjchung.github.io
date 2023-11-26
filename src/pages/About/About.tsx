@@ -11,11 +11,9 @@ export function About() {
       />
       <h1>{Strings.About.title}</h1>
       <div className="z-10 flex flex-col items-center justify-center gap-y-8 rounded-md bg-background/50 p-2 md:w-3/4">
-        <p className="text-center">{Strings.About.passions1}</p>
-        <p className="text-center">{Strings.About.passions2}</p>
+        <p className="text-center">{Strings.About.passions}</p>
         <h3>{Strings.About.myWorkExperienceTitle}</h3>
-        <p className="text-center">{Strings.About.workExperience1}</p>
-        <p className="text-center">{Strings.About.workExperience2}</p>
+        <p className="text-center">{Strings.About.workExperience}</p>
       </div>
     </div>
   );
