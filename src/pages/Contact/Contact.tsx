@@ -9,10 +9,10 @@ export function Contact() {
       <img
         src={contactSVG}
         alt="Contact Me"
-        className="absolute bottom-0 h-4/5 opacity-70"
+        className="absolute bottom-0 md:h-4/5 w-5/6 opacity-70"
       />
       <h1>{Strings.Contact.title}</h1>
-      <div className="z-10 flex flex-col pt-36 gap-y-16 md:w-5/6 items-center justify-center">
+      <div className="z-10 flex flex-col md:pt-36 gap-y-16 md:w-5/6 items-center justify-center">
         <div className="flex flex-row gap-x-24 justify-center items-center">
           <a href={resumePDF} target="_blank">
             <div className="cursor-pointer hover:stroke-primary hover:text-primary">

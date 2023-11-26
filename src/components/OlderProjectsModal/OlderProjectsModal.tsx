@@ -87,20 +87,24 @@ const conferenceProject = {
 
 function OlderProjectRow({ project }: OlderProjectProps) {
   return (
-    <div className="flex flex-row gap-x-8 justify-center items-center">
+    <div className="flex flex-col gap-y-6 md:flex-row md:gap-x-8 justify-center items-center">
       <img
         src={project.imgSRC}
         alt={project.title}
         className="rounded-sm shadow-md w-2/5"
       />
-      <div className="flex flex-col gap-y-4">
-        <h3 className="text-left">{project.title}</h3>
+      <div className="flex flex-col justify-center items-center md:justify-normal md:items-start gap-y-2 md:gap-y-4">
+        <h3 className="text-center md:text-left">{project.title}</h3>
         <div className="flex flex-row gap-x-1">
           {project.labels.map((label, i) => (
-            <Badge key={i}>{label}</Badge>
+            <Badge className="text-center" key={i}>
+              {label}
+            </Badge>
           ))}
         </div>
-        <p className="text-xs">{project.description}</p>
+        <p className="text-xs text-center md:text-left">
+          {project.description}
+        </p>
         <a href={project.links[0]} target="_blank">
           <Button variant={"outline"} size={"sm"}>
             {project.linkTypes[0] === LinkType.Figma && (

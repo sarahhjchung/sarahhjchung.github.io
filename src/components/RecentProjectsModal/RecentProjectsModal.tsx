@@ -107,11 +107,11 @@ function RecentProjectRow({ project }: RecentProjectProps) {
   return (
     <div className="flex flex-col gap-y-8 justify-center items-center">
       <div className="flex flex-col gap-y-4 items-center w-4/5">
-        <div className="flex flex-row justify-between items-center w-full sticky top-1">
+        <div className="flex md:flex-row flex-col justify-between items-center w-full sticky top-1">
           <h3 className="backdrop-blur-sm py-2 px-4 rounded-md bg-background/30">
             {project.title}
           </h3>
-          <div className="flex flex-row gap-x-1 backdrop-blur-sm py-2 px-4 rounded-md bg-background/30">
+          <div className="hidden md:block flex flex-row gap-x-1 backdrop-blur-sm py-2 px-4 rounded-md bg-background/30">
             {project.labels.map((label, i) => (
               <Badge key={i}>{label}</Badge>
             ))}

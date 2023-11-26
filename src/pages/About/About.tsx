@@ -7,12 +7,12 @@ export function About() {
       <img
         src={aboutSVG}
         alt="About Me"
-        className="absolute bottom-0 w-3/5 opacity-70"
+        className="absolute bottom-0 h-2/5 opacity-70"
       />
       <h1>{Strings.About.title}</h1>
-      <div className="z-10 flex flex-col items-center justify-center gap-y-8 rounded-md bg-background/50 p-2 md:w-3/4">
+      <div className="z-10 xl:mt-16 flex flex-col items-center justify-center gap-y-8 rounded-md bg-background/50 p-2 md:w-3/4">
         <p className="text-center">{Strings.About.passions}</p>
-        <h3>{Strings.About.myWorkExperienceTitle}</h3>
+        <h3 className="text-center">{Strings.About.myWorkExperienceTitle}</h3>
         <p className="text-center">{Strings.About.workExperience}</p>
       </div>
     </div>
