@@ -59,14 +59,9 @@ const articulateProject = {
     "In this project, I worked as a designer, project manager, and a frontend developer in a team to create a web application for allowing easy 3D graphics creation for designers, game developers, and content creators. Initially, I designed the prototype of the website on Figma and made iterative change to them from consistent feedback. Then, using React Typesecript, Tailwind, and shacn/ui components, we set up the client side of the web application and developed responsive features for quick 3D object generation and a gallery to explore existing 3D graphics for inspiration. This project allowed me to dip my toes in many roles required for building an application; I believe it added perspective when coding and allowed me to maintain a user-focused approach from the beginning to the end. I also gained a ton of organizational experience having to keep good communication between all members and sub-groups of the team, ensuring we are on track for completing our deliverables.",
   links: [
     "https://articulat3.fly.dev/",
-    // "https://github.com/csc301-2023-fall/project-44-toronto-intelligence-m",
     "https://www.figma.com/file/PiuZtndJxjyLuyAER2jeSh/Articulate?type=design&node-id=0-1&mode=design&t=fuTBVtd6aK1Td4PR-0",
   ],
-  linkTypes: [
-    LinkType.Website,
-    // LinkType.Github,
-    LinkType.Figma,
-  ],
+  linkTypes: [LinkType.Website, LinkType.Figma],
 };
 
 function RecentProjectRow({ project }: RecentProjectProps) {
@@ -86,7 +81,7 @@ function RecentProjectRow({ project }: RecentProjectProps) {
         <img
           src={project.imgSRC}
           alt={project.title}
-          className="rounded-md border border-foreground w-2/3"
+          className="rounded-sm shadow-md w-2/3"
         />
         <p className="text-center">{project.description}</p>
         <div className="flex flex-row gap-x-4">
