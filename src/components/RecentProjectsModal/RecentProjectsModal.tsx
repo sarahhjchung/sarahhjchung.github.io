@@ -97,10 +97,10 @@ const articulateProject = {
     good communication between all members of the team to ensure we are on \
     track for completing our deliverables.",
   links: [
-    "https://articulat3.fly.dev/",
+    "https://github.com/sarahhjchung/articulate",
     "https://www.figma.com/file/PiuZtndJxjyLuyAER2jeSh/Articulate?type=design&node-id=0-1&mode=design&t=fuTBVtd6aK1Td4PR-0",
   ],
-  linkTypes: [LinkType.Website, LinkType.Figma],
+  linkTypes: [LinkType.Github, LinkType.Figma],
 };
 
 function RecentProjectRow({ project }: RecentProjectProps) {
