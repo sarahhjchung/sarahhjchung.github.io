@@ -28,10 +28,7 @@ export function Contact() {
           </a>
         </div>
         <div className="flex flex-row gap-x-24 justify-center items-center">
-          <a
-            href="https://www.linkedin.com/in/sarah-chung-59a923202/"
-            target="_blank"
-          >
+          <a href="https://www.linkedin.com/in/sarahhjchung" target="_blank">
             <div className="cursor-pointer hover:stroke-primary hover:text-primary">
               <Linkedin className="h-16 w-16 stroke-1" />
               <p className="subtitle">LinkedIn</p>
