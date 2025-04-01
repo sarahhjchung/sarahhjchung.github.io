@@ -91,7 +91,7 @@ function OlderProjectRow({ project }: OlderProjectProps) {
       <img
         src={project.imgSRC}
         alt={project.title}
-        className="rounded-sm shadow-md w-2/5"
+        className="rounded-sm shadow-md md:w-40 w-24"
       />
       <div className="flex flex-col justify-center items-center md:justify-normal md:items-start gap-y-2 md:gap-y-4">
         <h3 className="text-center md:text-left">{project.title}</h3>
